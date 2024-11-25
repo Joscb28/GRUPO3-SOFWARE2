@@ -1,0 +1,159 @@
+/* Reseteo básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* General */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f4f4f9;
+}
+
+header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #3c4cfe;
+}
+
+.user-options {
+  display: flex;
+  gap: 15px;
+}
+
+.user-options a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.user-options a:hover {
+  color: #3c4cfe;
+}
+
+/* Estilo de la sección de eliminación del contrato */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  padding: 20px;
+}
+
+.delete-contract {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.delete-contract h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.delete-contract p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.delete-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #f44336;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #ffffff;
+  color: #f44336;
+  border: 2px solid #f44336;
+}
+
+.cancel-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #3c4cfe;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #ffffff;
+  color: #3c4cfe;
+  border: 2px solid #3c4cfe;
+}
+
+footer {
+  height: 10%;
+  padding: 20px;
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+}
+
+.social-media {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #3c4cfe;
+}
